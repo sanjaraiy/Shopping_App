@@ -10,7 +10,7 @@ html{
 }
 
 section{
-    border: 1px solid;
+    /* border: 1px solid; */
     width:100%;
     height: 100vh;
     background-image: url('./assets/image/bg1.png');
@@ -39,7 +39,7 @@ section nav .logo{
     margin: 5px 0;
     cursor: pointer;
     position: relative;
-    left: -5%;
+    left: -3%;
 }
 
 section nav .logo h1 span{
@@ -73,6 +73,93 @@ section nav .icons i{
 section nav .icons i:hover{
     color: #c72092;
 }
+   
+
+section .main .main_content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+section .main .main_content .main_text{
+    /* border: 1px solid; */
+}
+section .main .main_content .main_text h1{
+  font-size: 90px;
+  line-height: 70px;
+  font-family: pyxidium quick;
+  background: linear-gradient(to right,#c72092,#6c14d0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  top: 45px;
+  left: 5%;
+  /* border: 1px solid; */
+}
+section .main .main_content .main_text h1 span{
+    font-size: 70px;
+    background: linear-gradient(to right,#c72092,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+section .main .main_content .main_text p{
+    width:450px;
+    text-align: justify;
+    line-height: 21px;
+    position: relative;
+    top: 85px;
+    left: 5%;
+    
+}
+section .main .main_content .main_image img{
+    width: 650px;
+    position: relative;
+    left: 20px;
+    top: 75px;
+
+
+}
+
+section .main .social_icon{
+    position: absolute;
+    top: 80%;
+    left:98%;
+    transform: translate(-50%,-50%);
+    font-size: 19px;
+}
+
+section .main .social_icon i{
+    margin: 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section .main .social_icon i:hover{
+    color: #c72092;
+}
+section .main .btn{
+  position: absolute;
+  left: 4%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: linear-gradient(to right,#c72092,#6c14d0);
+
+}
+section .main .btn a{
+    color: white;
+    text-decoration: none;
+
+
+}
+section .main .btn i{
+    color: white;
+    margin-left:5px;
+    transition: 0.3s;
+}
+section .main .btn:hover i{
+    transform: translateX(6px);
+    box-shadow: 0px 0px 10px #c72092 ;
+}
+
 
 
 
