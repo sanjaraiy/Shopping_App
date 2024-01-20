@@ -10,7 +10,7 @@ html{
 }
 
 section{
-    /* border: 1px solid; */
+    border: 1px solid;
     width:100%;
     height: 100vh;
     background-image: url('./assets/image/bg1.png');
@@ -74,11 +74,15 @@ section nav .icons i:hover{
     color: #c72092;
 }
    
-
+.main{
+    /* border: 1px solid; */
+    position: relative;
+}
 section .main .main_content{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* border: 1px solid; */
 }
 section .main .main_content .main_text{
     /* border: 1px solid; */
@@ -108,23 +112,29 @@ section .main .main_content .main_text p{
     position: relative;
     top: 85px;
     left: 5%;
+    /* border: 1px solid; */
+
     
+}
+.main_image{
+    /* border: 1px solid; */
 }
 section .main .main_content .main_image img{
     width: 650px;
     position: relative;
-    left: 20px;
-    top: 75px;
+    left: 55px;
+    top: 60px;
 
 
 }
 
 section .main .social_icon{
     position: absolute;
-    top: 80%;
+    top: 75%;
     left:98%;
     transform: translate(-50%,-50%);
     font-size: 19px;
+    /* border: 1px solid; */
 }
 
 section .main .social_icon i{
@@ -142,6 +152,8 @@ section .main .btn{
   padding: 10px 20px;
   border-radius: 30px;
   background: linear-gradient(to right,#c72092,#6c14d0);
+  /* border: 1px solid; */
+  bottom: 5%;
 
 }
 section .main .btn a{
@@ -160,8 +172,121 @@ section .main .btn:hover i{
     box-shadow: 0px 0px 10px #c72092 ;
 }
 
-/* products*/
 
+/* products*/
+.products{
+    margin-top:40px;
+    width: 100%;
+    height: 140vh;
+    padding: 25px 0;
+    border: 1px solid;
+}
+
+.products h1{
+    margin: 35px 0;
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #c72092,#6c14d0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.products .box{
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:25px;
+    border: 1px solid;
+    /* overflow: hidden; */
+
+}
+.products .box .card{
+    width: 290px;
+    height: 440px;
+    box-shadow: 0 0 8px #6c14d0;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    background: #f6f6f6;
+    margin: 0 auto;
+
+}
+
+.products .box .card .small_card{
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    margin: 10px 0;
+    transform: translateX(-20px);
+    transition: 0.3s;
+    opacity: 0;
+
+}
+
+.products .box .card:hover .small_card{
+    transform: translateX(2px);
+    cursor: pointer;
+    opacity: 1;
+}
+.products .box .card .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.products .box .card:hover .small_card i{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 2px 0;
+    line-height: 40px;
+    border: 2px solid #999999;
+    transition: 0.2s;
+
+}
+.products .box .card .small_card i:hover{
+    color: #c72092;
+}
+
+.products .box .card .image img{
+    width: 150px;
+    margin: 15px 0;
+    transition: 0.3s;
+    
+}
+.products .box .card:hover .image img{
+     transform: scale(1.1);
+}
+.products .box .card .products_text h2{
+    font-size:30px;
+    margin-top: 15px;
+
+}
+.products .box .card .products_text p{
+    color:#91919191;
+    line-height: 21px;
+    margin: 8px 0;
+}
+.products .box .card .products_text h3{
+    margin: 5px 0;
+}
+
+.products .box .card .products_text .products_star{
+    color:orange;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+
+.products .box .products_text .btn-to-card{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: linear-gradient(to right,#c72092,#6c14d0);
+    color: white;
+}
 
 
 
