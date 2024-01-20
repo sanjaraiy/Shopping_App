@@ -267,9 +267,45 @@
         </div>
     </div>
 
+    <!-- About  -->
+    <div class="about" id="About">
+      <h1><span>About</span></h1>
+      <div class="about_main">
+        <div class="about_image">
+          <div class="about_small_image">
+            <img src="./assets/image/red_shoes1.png" alt="" onclick="functio(this)">
+            <img src="./assets/image/red_shoes2.png" alt="" onclick="functio(this)">
+            <img src="./assets/image/red_shoes3.png" alt="" onclick="functio(this)">
+            <img src="./assets/image/red_shoes4.png" alt="" onclick="functio(this)">
+          </div>
+          <div class="image_container">
+            <img src="./assets/image/red_shoes1.png" id="imagebox" alt="">
+          </div>
+        </div>
+        <div class="about_text">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, nemo. Debitis laborum quo repudiandae adipisci natus, aliquam, magnam, eius inventore rerum ullam asperiores eum. Culpa a nisi quasi doloribus incidunt. Voluptas dolorem rerum, facilis, libero temporibus maxime alias explicabo sint, quos consectetur corrupti ipsum unde vel? Cupiditate labore officia voluptatum, doloremque, deserunt, non blanditiis facilis in eum cumque reiciendis hic! Itaque magni hic, totam repellendus commodi, voluptatum odio deserunt eligendi maiores, nesciunt blanditiis? Temporibus labore reprehenderit facere, consequatur error omnis incidunt. Dolore doloribus nam esse facilis eum maxime. Provident quia repellat sint sequi corporis aperiam, recusandae fugit tenetur dolorem eveniet adipisci iste commodi voluptatem ducimus, ad rem officiis ipsum a dignissimos. Molestiae dolorem, atque optio dolore
+            eveniet adipisci iste commodi voluptatem ducimus, ad rem officiis ipsum a dignissimos. Molestiae dolorem, atque optio dolore
+            eveniet adipisci iste commodi voluptatem ducimus, ad rem officiis ipsum a dignissimos. Molestiae dolorem, atque optio dolore
+          </p>
+        </div>
+      </div>
+      <a href="#" class="about_btn">Shop Now</a>
+    </div>
+
+    <!-- Review  -->
+    
+
+
 
     <!-- External script link -->
-    <script src="./script.js"></script>
+    <script src="./script.js">
+
+      const full=document.querySelector('#imagebox');
+      function functio(small){
+        full.src=small.src;
+      }
+    </script>
     
 </body>
 </html>
