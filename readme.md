@@ -15,7 +15,7 @@ This Project is based on `HTML`, `CSS`, `Javascript` . it is responsive for diff
 3) Actractive CSS style for better user expericence
 
 ## Demo Image
-[]();
+![Demo Image](https://github.com/sanjaraiy/Shopping_App/blob/main/assets/demopic.png);
 
 ## Future Updatation
 - New features will be added here.
