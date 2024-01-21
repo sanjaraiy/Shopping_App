@@ -308,7 +308,7 @@ section .main .btn:hover i{
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    border: 1px solid;
+    /* border: 1px solid; */
 }
 
 .about h1 span{
@@ -326,21 +326,22 @@ section .main .btn:hover i{
     display: flex;
     justify-content: space-around;
     align-items:center;
-    border: 2px solid;
-    overflow: hidden;
+    /* border: 2px solid; */
+    /* overflow: hidden; */
     margin: 10px auto;
-
+   
 }
 .about .about_main .about_image{
     display: flex;
     margin-top: 50px;
 }
-
 .about .about_main .about_image .about_small_image {
       display: flex;
       flex-direction: column;
       position: relative;
-      top: 15px;
+      top: 1px;
+      /* border: 1px solid; */
+      margin-bottom: 5px;
 
 }
 .about .about_main .about_image .about_small_image img{
@@ -366,7 +367,7 @@ section .main .btn:hover i{
 .about .about_main .image_container img{
     border:3px solid #6c14d0;
     border-radius: 20px;
-    height: 430px;
+    height: 385px;
     padding: 30px;
     box-shadow: 0 0 8px #6c14d0;
 }
@@ -378,7 +379,7 @@ section .main .btn:hover i{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     line-height: 22px;
-    width: 600px;
+    width: 450px;
     text-align: justify;
     padding: 25px 30px;
     border: 2px solid #c72092;
@@ -398,6 +399,7 @@ section .main .btn:hover i{
     text-decoration: none;
     box-shadow: 0 0 8px #6c14d0;
     transition: 0.5s;
+    
 }
 
 .about .about_btn:hover{
